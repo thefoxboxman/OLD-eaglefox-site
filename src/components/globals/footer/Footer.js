@@ -31,25 +31,32 @@ export default class Footer extends Component {
 
 	render() {
 		return (
-			<FooterWrapper>
-				{/* disable title				
+      <FooterWrapper>
+        {/* disable title				
 <div className='title'>title something</div>
 */}
-				<FooterCallButton />
-				<Link to="/contact/" style={{ textDecoration: 'none' }}>
-					<FooterButton style={{ margin: '2rem auto' }}>free consultation</FooterButton>
-				</Link>
-				
-				<div className="footerLinks">
-					<FooterLinks />
-				</div>
-				{/* disable social icons
+        <FooterCallButton />
+        <Link to="/contact/" style={{ textDecoration: 'none' }}>
+          <FooterButton style={{ margin: '2rem auto' }}>
+            free consultation
+          </FooterButton>
+        </Link>
+
+        <div className="footerLinks">
+          <FooterLinks />
+        </div>
+        {/* disable social icons
 <div className="icons">
 					{this.state.icons.map(item => (<a href={item.path} key={item.id} target="_blank" rel="noopener noreferrer">{item.icon} </a>))}
 		</div> */}
-				<p className="copyright">copyright &copy; 1999-2019   Eaglefox Pty Ltd ABN: 51086009028</p>
-			</FooterWrapper>
-		)
+        <p className="copyright">
+          copyright &copy; 1999-2019 Eaglefox Pty Ltd ABN: 51086009028
+        </p>
+        <a rel="me" href="https://mastodon.social/@johndecosta">
+          Mastodon
+        </a>
+      </FooterWrapper>
+    )
 	}
 }
 const FooterWrapper = styled.footer`
