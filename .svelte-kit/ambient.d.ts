@@ -187,6 +187,7 @@ declare module '$env/dynamic/private' {
 		npm_config_prefix: string;
 		COLORTERM: string;
 		NODE_ENV: string;
+		[key: `PUBLIC_${string}`]: undefined;
 		[key: string]: string | undefined;
 	}
 }
@@ -203,6 +204,6 @@ declare module '$env/dynamic/private' {
  */
 declare module '$env/dynamic/public' {
 	export const env: {
-		[key: string]: string | undefined;
+		[key: `PUBLIC_${string}`]: string | undefined;
 	}
 }
