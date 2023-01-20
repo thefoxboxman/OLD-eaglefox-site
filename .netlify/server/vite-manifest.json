@@ -1,0 +1,139 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_index2.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/build/hooks.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-f24353bf.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/eagleFOX_brand_name-6aa267b3.png",
+      "_app/immutable/assets/Fox-logo-fa8a0aa6.png",
+      "_app/immutable/assets/icon-close-4ba9bc15.svg",
+      "_app/immutable/assets/icon-hamburger-0c2573b0.svg"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-df9ba084.css"
+    ]
+  },
+  "src/routes/+page.js": {
+    "file": "entries/pages/_page.js",
+    "src": "src/routes/+page.js",
+    "isEntry": true
+  },
+  "src/routes/about/+page.svelte": {
+    "file": "entries/pages/about/_page.svelte.js",
+    "src": "src/routes/about/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/about/+page.js": {
+    "file": "entries/pages/about/_page.js",
+    "src": "src/routes/about/+page.js",
+    "isEntry": true,
+    "imports": [
+      "_environment.js"
+    ]
+  },
+  "src/routes/services/+page.svelte": {
+    "file": "entries/pages/services/_page.svelte.js",
+    "src": "src/routes/services/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/services/+page.js": {
+    "file": "entries/pages/services/_page.js",
+    "src": "src/routes/services/+page.js",
+    "isEntry": true,
+    "imports": [
+      "_environment.js"
+    ]
+  },
+  "src/routes/sverdle/+page.svelte": {
+    "file": "entries/pages/sverdle/_page.svelte.js",
+    "src": "src/routes/sverdle/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-ddebd319.css"
+    ]
+  },
+  "src/routes/sverdle/+page.server.js": {
+    "file": "entries/pages/sverdle/_page.server.js",
+    "src": "src/routes/sverdle/+page.server.js",
+    "isEntry": true,
+    "imports": [
+      "_index2.js"
+    ]
+  },
+  "src/routes/sverdle/how-to-play/+page.svelte": {
+    "file": "entries/pages/sverdle/how-to-play/_page.svelte.js",
+    "src": "src/routes/sverdle/how-to-play/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-0e6c8ae6.css"
+    ]
+  },
+  "src/routes/sverdle/how-to-play/+page.js": {
+    "file": "entries/pages/sverdle/how-to-play/_page.js",
+    "src": "src/routes/sverdle/how-to-play/+page.js",
+    "isEntry": true,
+    "imports": [
+      "_environment.js"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js"
+  },
+  "_index2.js": {
+    "file": "chunks/index2.js"
+  },
+  "_environment.js": {
+    "file": "chunks/environment.js"
+  },
+  ".svelte-kit/build/hooks.js": {
+    "file": "chunks/hooks.js",
+    "src": ".svelte-kit/build/hooks.js",
+    "isDynamicEntry": true
+  }
+}
